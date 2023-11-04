@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/layout.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Donut Clicker</title>
+  </head>
+  <header>
+    <nav>
+        <button type="button" class="collapsibleNavBar">About</button>
+            <div class="content">
+                <p>Fred, the Baker Donuts, is best known for fresh, glazed, yeast-raised doughnuts, especially the "Original Glazed," its first 
+                and best-known doughnut. All of its doughnuts are made from a secret recipe in the company since 1980.  Fred retires and wants 
+                to keep Donut making alive with the Donut Maker.
+                </p>
+            </div>
+        <button type="button" class="collapsibleNavBar">Inspiration</button>
+            <div class="content">
+                <p>Donut Maker was inspired by the game, <a href="https://orteil.dashnet.org/cookieclicker" target="_blank">Cookie Clicker</a>. 
+                Cookie Clicker is a game about making an absurd amount of cookies. Cookie Clicker was originally released in 2013, but has been 
+                very actively developed since then. If you played it before, try it again to see all the new features! 
+                </p>
+            </div>
+        <button type="button" class="collapsibleNavBar">Contact</button>
+            <div class="content">
+                <p>Ibrahiim King: Web Developer
+                    <ul>
+                        <li><a href="https://github.com/rahiim718/" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/ibrahiim-king-94b25a66/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </p>
+            </div>
+    </nav>
+    <h1>Donut Maker</h1>
+    <h3>Welcome to Fred the Baker Baking Company!</h3>
+  </header>
+  <body>
+    <h4><span class="donut-count">0</span> Donuts</h4>
+    <img src="images\584fcc8d6a5ae41a83ddee8d.png" name="donutButton" id="sound" alt="jsButton" class="donutButton">
+    <div class="modifies">
+        <div class="auto-clicker-mod">
+            <h3 class="price">Auto Clicker Price</h3>
+            <h2><span id="auto-clicker-price">100</span> Donuts</h2>
+                <button id="purchase-auto-clicker">Purchase Auto Clicker</button>
+            <h3 class="price">Total Purchased:</h3>
+            <h2><span id="auto-clickers-total">0</span></h2>
+        </div>
+        <div class="click-multiplier-mod">
+            <h3 class="price">Click Multiplier Price</h3>
+            <h2><span id="click-multiplier-price">10</span> Donuts</h2>
+                <button id="purchase-click-multiplier">Purchase Click Multiplier</button>
+            <h3 class="price">Total Purchased:</h3>
+            <h2><span id="click-multiplier">0</span></h2>
+        </div>
+    </div>
+    <button id="reset-game-button">Reset</button>
+    <script src="./index.js"></script>
+  </body>
+</html>

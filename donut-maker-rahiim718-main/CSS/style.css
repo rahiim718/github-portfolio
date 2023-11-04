@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(65 69 71);
+}
+
+.active, .collapsibleNavBar:hover {
+    background-color: #555;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 2px 5px rgb(92, 89, 89);
+}
+        
+h2 {
+    color: #777;
+    text-shadow: 2px 2px 2px white;
+}
+        
+h3 {
+    color: white;
+}
+        
+h4 {
+    color: #777;
+    text-shadow: 2px 2px 2px white;
+}
+
+nav {
+    background-color: #777;
+}
+            
+.collapsibleNavBar {
+    background-color: #777;
+    color: white;
+}
+            
+.content {
+    background-color: #f1f1f1;
+} 
+
+.price {
+    color: #ab7f7f;
+    text-shadow: 2px 2px 5px rgb(151 50 66);
+}
+
+#reset-game-button {
+    background-color:  #777;
+    color: white;
+}
+
+#purchase-auto-clicker {
+    background-color: #777;
+    color: white;
+}
+    
+#purchase-click-multiplier {
+    background-color:  #777;
+    color: white;
+}
+
