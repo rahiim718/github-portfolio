@@ -14,7 +14,7 @@ public class VirtualPet {
 		this.description = description;
 	}
 	
-	// Constructor
+	// Constructors
 	public VirtualPet(String name, String description, int hunger, int thirst, int boredom, int happiness) {
 		this.name = name;
 		this.description = description;
